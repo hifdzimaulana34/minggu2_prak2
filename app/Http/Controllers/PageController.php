@@ -12,7 +12,7 @@ class PageController extends Controller
     public function AboutUser(){
         return '[2031710142] Mohammad Hifdzi Maulana';
     }
-    public function ArticleClass($id){
+    public function Article($id){
         return 'Selamat Datang '.$id;
     }
 }
